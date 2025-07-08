@@ -21,13 +21,18 @@ The app computes the interest based on the number of days between a user-specifi
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/interest-calculator.git
-   cd interest-calculator
+   git clone https://github.com/yourusername/interest-calculator-dashboard.git
+   cd interest-calculator-dashboard
    ```
 
 2. **Install the required packages**:
    ```bash
    pip install -r requirements.txt
+   ```
+
+3. **Create a new conda environment**:
+   ```bash
+   conda env create -f environment.yml
    ```
 
 3. **Run the Streamlit app**:
@@ -48,11 +53,15 @@ You will receive:
 ## 📦 Project Files
 
 ```
-interest-calculator/
-├── interest_calculator.py     # Streamlit dashboard script
-├── requirements.txt           # Python dependencies
-├── README.md                  # Project documentation
-└── .gitignore                 # Optional, ignores cache & system files
+interest-calculator-dashboard/
+├── notebooks/
+│   └── interest_calculator.py     # Streamlit dashboard script
+├── assets/
+│   └── screenshot.png             # Optional: screenshot used in README
+├── environment.yml                # Conda environment file
+├── requirements.txt               # pip dependencies
+├── .gitignore                     # Files to ignore in version control
+├── README.md                      # Project documentation
 ```
 
 ## 🛠️ Tech Stack
