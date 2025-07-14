@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: high-yield-interest-app
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run interest_calculator.py --server.port $PORT --server.enableCORS false
