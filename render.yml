@@ -5,3 +5,4 @@ services:
     plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: streamlit run interest_calculator.py --server.port $PORT --server.enableCORS false
+    
