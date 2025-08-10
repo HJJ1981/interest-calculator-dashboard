@@ -15,13 +15,13 @@ The app computes the interest based on the number of days between a user-specifi
 
 ## 🖼️ Demo Screenshot
 
-![Screenshot](assets/screenshot.png) <!-- Replace with actual image path if you add one -->
+![Screenshot](assets/screenshot.png)
 
 ## 🚀 How to Use
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/interest-calculator-dashboard.git
+   git clone https://github.com/HJJ1981/interest-calculator-dashboard.git
    cd interest-calculator-dashboard
    ```
 
@@ -47,21 +47,22 @@ Enter:
 - A start and end date (e.g., `2024-01-01` to `2024-12-31`)
 
 You will receive:
-- Number of days
+- Number of days (e.g., `365`)
 - Estimated interest earned (e.g., `$2,010.68`)
 
 ## 📦 Project Files
 
 ```
 interest-calculator-dashboard/
-├── notebooks/
-│   └── interest_calculator.py     # Streamlit dashboard script
 ├── assets/
-│   └── screenshot.png             # Optional: screenshot used in README
+│   └── screenshot.png             # Optional
+├── interest_calculator.py         # Streamlit dashboard script
 ├── environment.yml                # Conda environment file
+├── render.yml                     # Deployment on Render        
 ├── requirements.txt               # pip dependencies
 ├── .gitignore                     # Files to ignore in version control
 ├── README.md                      # Project documentation
+├── reference.md                   # Streamlit documentation
 ```
 
 ## 🛠️ Tech Stack
