@@ -55,11 +55,11 @@ else:
         
         return interest
 
-    # Calculate interest
+    # Calculate interest earned
     interest_earned = calculate_interest(balance, days)
 
     # Display results
     st.subheader("Results")
     st.write(f"Total number of days: {days}")
     st.write(f"Interest earned: ${interest_earned:,.2f}")
-    
+  
